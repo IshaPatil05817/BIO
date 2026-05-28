@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #004aad;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 2em auto;
+  padding: 2em;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0.7em;
+}
+
+button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+/* Minimal Navbar styles */
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
